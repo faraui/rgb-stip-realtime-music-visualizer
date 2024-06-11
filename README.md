@@ -1,5 +1,5 @@
 # rgb-strip-realtime-music-visualiser
-Realtime LED RGB strip music visualiser. Firmware for a certain LED RGB stip is included.
+Realtime LED RGB strip music visualiser. Firmware for a certain LED RGB stip is included. Written with numpy, sounddevice and pyserial Python libraries.
 
 The project is abandoned for more than 2 years and there is no intentions of resuming work on it.
 
