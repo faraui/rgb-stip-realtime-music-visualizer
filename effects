@@ -1,0 +1,13 @@
+r, g, b = 0xff, 0, 0
+    ...: f = 0
+    ...: while True:
+    ...:     for i in range(0xff):
+    ...:         if f==0: g += 1
+    ...:         elif f==1: r -= 1
+    ...:         elif f==2: b += 1
+    ...:         elif f==3: g -= 1
+    ...:         elif f==4: r += 1
+    ...:         elif f==5: b -= 1
+    ...:         led.setColorRgb(r, g, b)
+    ...:         time.sleep(0.001)
+    ...:     f = (f+1) % 6
